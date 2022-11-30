@@ -98,7 +98,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
 }
 
 const resetForm = (formEl: FormInstance | undefined) => {
-  if (!formEl) return
+  if (!formEl) return；
   formEl.resetFields()
 }
 </script>
